@@ -19,6 +19,10 @@ Ubuntu 16:04
 
 Funcionamento: 07 às 11 e de 13 as 17
 
+## Ferramenta
+```
+ZABBIX - Versão 3.2.11
+```
 
 ## Instalação dos Agents
 
