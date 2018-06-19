@@ -3,7 +3,7 @@
 
 # Monitorização do laboratório de informática da Escola de Ensino Médio Professora Maria Edilce Dias Fernandes - Ibicuitinga
 
-Antonio Matheus Cavalcante da Silva
+Antonio Matheus Cavalcante da Silva <br>
 Esdras Emanuel Mariano Moreira
 
 ## Objetivo
@@ -18,7 +18,6 @@ Configuração dos hots:
 Ubuntu 16:04 
 
 Funcionamento: 07 às 11 e de 13 as 17
-
 
 
 ## Instalação dos Agents
