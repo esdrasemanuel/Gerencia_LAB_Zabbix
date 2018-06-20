@@ -15,8 +15,8 @@ Fazer o Gerênciamento de um laboratório de informática utilizando a ferrament
 #### Topologia:
 13 computadores funcionando
 
-<div align="center"><img src="img/topologia.png" alt="" style="width:80; height:85px;"/></div>
-<div align="center"><img src="img/gerencia06.png" alt="" style="width:80; height:85px;"/></div>
+<div align="center"><img src="img/Topologia.png" alt="" style="width:80; height:85px;"/></div>
+<div align="center"><img src="IMG_20180615_142344.jpg" alt="" style="width:80; height:85px;"/></div>
 
 #### Sistema:
 Ubuntu 16.04 
