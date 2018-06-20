@@ -40,8 +40,15 @@ o script pinga em todos os ips de um determinada rede que é colocada com parame
 ./install_agents.sh 20.20.1. aluno aluno
 ```
 
-## Configuração do ambiente
+## Configuração do ambiente no Zabbix
 
+Criamos um grupo chamado LEI (Laborario Escolar de Informatica) para adicionar os host no mesmo.
+<div align="center"><img src="img/gerencia06.png" alt="" style="width:80; height:85px;"/></div>
+
+Em cada host, adicionamos o template ( Template OS Linux )
+<div align="center"><img src="img/gerencia07.png" alt="" style="width:80; height:85px;"/></div>
+
+Todos os Hosts Adicionados 
 <div align="center"><img src="img/gerencia08.png" alt="" style="width:80; height:85px;"/></div>
 
 ## trigger
