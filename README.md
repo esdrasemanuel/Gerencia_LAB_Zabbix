@@ -41,4 +41,7 @@ Modo de executar:
 ```
 {Template OS Linux:agent.ping.time()}>110000 and {Template OS Linux:agent.ping.time()}<130000 or {Template OS Linux:agent.ping.time()}>170000 and {Template OS Linux:agent.ping.time()}<180000
 ```
-
+## Acão
+```
+sudo shutdown -h 1 "Fim do horario letivo, desligando em 1 minuto."
+```
