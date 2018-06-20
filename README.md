@@ -49,9 +49,10 @@ Modo de executar:
 ## Acão
 
 <div align="center"><img src="img/gerencia04.png" alt="" style="width:80; height:85px;"/></div>
+
+## Operações
 <div align="center"><img src="img/gerencia05.png" alt="" style="width:80; height:85px;"/></div>
 
-
 ```
-sudo shutdown -h 1 "Fim do horario letivo, desligando em 1 minuto."
+sudo shutdown -h 1 "Fim do horário letivo, desligando em 1 minuto."
 ```
