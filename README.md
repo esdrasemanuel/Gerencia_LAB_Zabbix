@@ -2,7 +2,7 @@
 ## Universidade Federal do Ceará - Campus Quixadá
 
 # Monitorização do laboratório de informática da Escola de Ensino Médio Professora Maria Edilce Dias Fernandes - Ibicuitinga
-<div align="center"><img src="img/index.png" alt="" style="width:80; height:85px;"/></div>
+<div align="center"><img src="img/gerencia03" alt="" style="width:80; height:85px;"/></div>
 
 Antonio Matheus Cavalcante da Silva <br>
 Esdras Emanuel Mariano Moreira
@@ -30,7 +30,7 @@ Fizemos um script para a instalação automatizada do agent zabbix em todos os h
 o script pinga em todos os ips de um determinada rede que é colocada com parametro no momento da execução, em seguida os hosts que foram pigados seram tentado o acesso via ssh para ser executados os comando de instalaçao e configuração. <br>
 Modo de executar:
 ```
-./install_agents.sh 20.20.1.
+./install_agents.sh 20.20.1. usuario senha
 ```
 
 ## trigger
