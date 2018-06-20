@@ -2,7 +2,7 @@
 ## Universidade Federal do Ceará - Campus Quixadá
 
 # Monitorização do laboratório de informática da Escola de Ensino Médio Professora Maria Edilce Dias Fernandes - Ibicuitinga
-<div align="center"><img src="img/gerencia03" alt="" style="width:80; height:85px;"/></div>
+
 
 Antonio Matheus Cavalcante da Silva <br>
 Esdras Emanuel Mariano Moreira
@@ -32,6 +32,10 @@ Modo de executar:
 ```
 ./install_agents.sh 20.20.1. usuario senha
 ```
+
+## Configuração do ambiente
+
+<div align="center"><img src="img/geencia03.png" alt="" style="width:80; height:85px;"/></div>
 
 ## trigger
 ```
