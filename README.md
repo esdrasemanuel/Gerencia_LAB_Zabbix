@@ -8,12 +8,12 @@ Antonio Matheus Cavalcante da Silva <br>
 Esdras Emanuel Mariano Moreira
 
 ## Objetivo
-Fazer o Gerênciamento de um laboratório de informática utilizando a ferramenta de monitoramento ZABBIX. Este trabalho, monitorou 13 hosts do laboratório escolar de informática da escola Maria Edilce Dias Fernandes, foi desenvolvido um script de desligamento automático das máquinas no fim do horário letivo, facilitando assim, o trabalho do gerente e também poupando recursos. #foratemer
+Fazer o Gerênciamento de um laboratório de informática utilizando a ferramenta de monitoramento ZABBIX. Este trabalho, monitorou 13 hosts do laboratório escolar de informática da escola Maria Edilce Dias Fernandes, foi desenvolvido um script de desligamento automático das máquinas no fim do horário letivo, facilitando assim, o trabalho do gerente e também poupando recursos.
 
 ## Cenário
 
 #### Topologia:
-13 computadores funcionando
+13 Computadores funcionando
 
 <div align="center"><img src="img/topologia.png" alt="" style="width:80; height:85px;"/></div>
 <div align="center"><img src="img/gerencia06.png" alt="" style="width:80; height:85px;"/></div>
@@ -35,8 +35,8 @@ ZABBIX - Versão 3.2.11
 **pré-requisitos**
 - sshpass
 
-Foi feito um script para a instalação automatizada do agent zabbix em todos os hosts do laboratório. Usamos conexão via SSH para entrar em cada máquina, executar os comando e adicionar as configurações no arquivo zabbiz_agentd.conf.
-O script pinga em todos os IPs de um determinada rede que é colocada como parâmetro no momento da execução, em seguida os hosts que foram pigados receberam uma tentativa de acesso via ssh para executar os comandos de instalaçao e configuração. <br>
+Foi feito um script para a instalação automatizada do agent zabbix em todos os hosts do laboratório. Usamos conexão via SSH para entrar em cada máquina, executar os comandos e adicionar as configurações no arquivo zabbiz_agentd.conf.
+O script pinga em todos os IPs de uma determinada rede que é colocada como parâmetro no momento da execução, em seguida os hosts que foram pigados receberam uma tentativa de acesso via ssh para executar os comandos de instalação e configuração. <br>
 **Modo de executar:**
 ```
 ./install_agents.sh subrede. usuario senha
