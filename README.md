@@ -55,17 +55,19 @@ Todos os Hosts Adicionados
 <div align="center"><img src="img/gerencia08.png" alt="" style="width:80; height:85px;"/></div>
 
 ## trigger
-
+Criamos a trigger para o Template OS Linux, logo todos os hosts a herdaram.
 <div align="center"><img src="img/gerencia09.png" alt="" style="width:80; height:85px;"/></div>
 
+**Código**
 ```
 {Template OS Linux:agent.ping.time()}>110000 and {Template OS Linux:agent.ping.time()}<130000 or {Template OS Linux:agent.ping.time()}>170000 and {Template OS Linux:agent.ping.time()}<180000
 ```
 ## Acão
-
+Depois, criamos a ação a ser tomada quando a trigger disparar.
 <div align="center"><img src="img/gerencia04.png" alt="" style="width:80; height:85px;"/></div>
 
 ## Operações
+Em operação, definimos o tipo da operação para comando remoto, a lista de destino para o host atual, executar no Agente Zabbix e o comando para o desligamento da máquina.
 <div align="center"><img src="img/gerencia05.png" alt="" style="width:80; height:85px;"/></div>
 
 ```
@@ -79,7 +81,7 @@ sudo shutdown -h 1 "Fim do horário letivo, desligando em 1 minuto."
  # Agradecimentos:
  
 Agradecemos a Diretora da MEDF, Alcivane Maria Batista De Góes Castro, pela confiança.
-Ao gerente do laboratorio, João Paulo, pela paciencia e ajudar.
+Ao gerente do laboratorio, João Paulo, pela paciência e ajuda.
  <div align="center"><img src="img/final.png" alt="" style="width:80; height:85px;"/></div>
  15/06/2018 - Escola Maria Edilce Dias Fernandes - Ibicuitinga - CE
  
