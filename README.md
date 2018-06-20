@@ -74,6 +74,6 @@ sudo shutdown -h 1 "Fim do horário letivo, desligando em 1 minuto."
  A ação sera executada quando a trigger que foi configurada, "deligamento" for verdade.
  
  No momento do disparo da trigger aparecerá na tela do gerente o "incedente" 
- <div align="center"><img src="img/gerencia05.png" alt="" style="width:80; height:85px;"/></div>
+ <div align="center"><img src="img/final.png" alt="" style="width:80; height:85px;"/></div>
 
  
