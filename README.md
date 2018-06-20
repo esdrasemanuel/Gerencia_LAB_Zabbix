@@ -28,8 +28,9 @@ Ubuntu 16.04.3 LTS - com interface modificado pelo governo
 ```
 ZABBIX - Versão 3.2.11
 ```
-## Servidor
+## Servidor Zabbix
 
+Foi instalado na maquina do gerente do laboratório.
 
 ## Instalação dos Agentes
 **pré-requisitos**
