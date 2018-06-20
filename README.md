@@ -1,7 +1,7 @@
 # Gerencia de Redes de Computadores
 ## Universidade Federal do Ceará - Campus Quixadá
 
-# Monitorização do laboratório de informática da Escola de Ensino Médio Professora Maria Edilce Dias Fernandes - Ibicuitinga
+## Monitorização do laboratório de informática da Escola de Ensino Médio Professora Maria Edilce Dias Fernandes - Ibicuitinga
 
 
 Antonio Matheus Cavalcante da Silva <br>
