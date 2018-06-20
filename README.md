@@ -19,7 +19,7 @@ Fazer o Gerenciamento de um laboratório de informática utilizando a ferramenta
 <div align="center"><img src="img/IMG_20180615_142344.jpg" alt="" style="width:80; height:85px;"/></div>
 
 #### Sistema:
-Ubuntu 16.04 
+Ubuntu 16.04.3 LTS - com interface modificado pelo governo
 
 #### Funcionamento do laboratório: 
 07h às 11h e de 13h às 17h
