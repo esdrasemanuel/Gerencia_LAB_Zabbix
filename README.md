@@ -2,6 +2,7 @@
 ## Universidade Federal do Ceará - Campus Quixadá
 
 # Monitorização do laboratório de informática da Escola de Ensino Médio Professora Maria Edilce Dias Fernandes - Ibicuitinga
+<div align="center"><img src="img/index.png" alt="" style="width:80; height:85px;"/></div>
 
 Antonio Matheus Cavalcante da Silva <br>
 Esdras Emanuel Mariano Moreira
