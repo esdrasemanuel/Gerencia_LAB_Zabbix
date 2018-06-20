@@ -26,4 +26,8 @@ ZABBIX - Versão 3.2.11
 
 ## Instalação dos Agents
 
-## 
+## trigger
+```
+{Template OS Linux:agent.ping.time()}>110000 and {Template OS Linux:agent.ping.time()}<130000 or {Template OS Linux:agent.ping.time()}>170000 and {Template OS Linux:agent.ping.time()}<180000
+```
+
