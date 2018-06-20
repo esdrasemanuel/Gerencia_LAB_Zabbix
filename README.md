@@ -1,4 +1,4 @@
-# Gerencia de Redes de Computadores
+# Gerência de Redes
 ## Universidade Federal do Ceará - Campus Quixadá
 
 ## Monitorização do laboratório de informática da Escola de Ensino Médio Professora Maria Edilce Dias Fernandes - Ibicuitinga
@@ -8,18 +8,18 @@ Antonio Matheus Cavalcante da Silva <br>
 Esdras Emanuel Mariano Moreira
 
 ## Objetivo
-Fazer o Gerenciamento de um laboratório de informática utilizando a ferramenta de monitorização ZABBIX. Este trabalho, monitorou 13 hosts do laboratório escolar de informática da escola Maria Edilce Dias Fernandes, foi desenvolvido um script de desligamento automático das máquinas no fim do horário letivo, facilitando assim, o trabalho do gerente e também poupando recursos. #foratemer
+Fazer o Gerenciamento de um laboratório de informática utilizando a ferramenta de monitorização ZABBIX. Este trabalho, monitorizou 13 hosts do laboratório escolar de informática da Escola Maria Edilce Dias Fernandes, foi desenvolvido um script de desligamento automático das máquinas no fim do horário letivo, facilitando assim, o trabalho do gerente e também poupando recursos.
 
 ## Cenário
 
 #### Topologia:
-13 computadores funcionando
+13 Computadores funcionando
 
 <div align="center"><img src="img/Topologia.png" alt="" style="width:80; height:85px;"/></div>
 <div align="center"><img src="img/IMG_20180615_142344.jpg" alt="" style="width:80; height:85px;"/></div>
 
 #### Sistema:
-Ubuntu 16.04.3 LTS - com interface modificado pelo governo
+Ubuntu 16.04.3 LTS - com interface modificada pelo governo
 
 #### Funcionamento do laboratório: 
 07h às 11h e de 13h às 17h
@@ -30,7 +30,7 @@ ZABBIX - Versão 3.2.11
 ```
 ## Servidor Zabbix
 
-Foi instalado na maquina do gerente do laboratório.
+Foi instalado na máquina do gerente do laboratório.
 
 ## Instalação dos Agentes
 **pré-requisitos**
@@ -48,14 +48,14 @@ Foi feito um script para a instalação automatizada do agent zabbix em todos os
 Foi criado um grupo chamado LEI (Laboratório Escolar de Informática) para adicionar os hosts no mesmo.
 <div align="center"><img src="img/gerencia06.png" alt="" style="width:80; height:85px;"/></div>
 
-Em cada host, adicionamos o template ( Template OS Linux )
+Em cada host, o seguinte template é adicionado ( Template OS Linux )
 <div align="center"><img src="img/gerencia07.png" alt="" style="width:80; height:85px;"/></div>
 
 Todos os Hosts Adicionados 
 <div align="center"><img src="img/gerencia08.png" alt="" style="width:80; height:85px;"/></div>
 
 ## trigger
-Criamos a trigger para o Template OS Linux, logo todos os hosts a herdaram.
+É criado uma trigger para o Template OS Linux, logo todos os hosts a herdaram.
 <div align="center"><img src="img/gerencia09.png" alt="" style="width:80; height:85px;"/></div>
 
 **Código**
@@ -63,17 +63,17 @@ Criamos a trigger para o Template OS Linux, logo todos os hosts a herdaram.
 {Template OS Linux:agent.ping.time()}>110000 and {Template OS Linux:agent.ping.time()}<130000 or {Template OS Linux:agent.ping.time()}>170000 and {Template OS Linux:agent.ping.time()}<180000
 ```
 ## Acão
-Depois, criamos a ação a ser tomada quando a trigger disparar.
+Depois, é criado a ação a ser tomada quando a trigger disparar.
 <div align="center"><img src="img/gerencia04.png" alt="" style="width:80; height:85px;"/></div>
 
 ## Operações
-Em operação, definimos o tipo da operação para comando remoto, a lista de destino para o host atual, executar no Agente Zabbix e o comando para o desligamento da máquina.
+Em operação, é definido o tipo de operação para comando remoto, a lista de destino para o host atual executar no Agente Zabbix e o comando para o desligamento da máquina.
 <div align="center"><img src="img/gerencia05.png" alt="" style="width:80; height:85px;"/></div>
 
 ```
 sudo shutdown -h 1 "Fim do horário letivo, desligando em 1 minuto."
 ```
- A ação será executada quando a trigger que foi configurada, "deligamento" for verdade.
+ A ação será executada quando a trigger configurada, "deligamento" for verdade.
  
  No momento do disparo da trigger aparecerá na tela do gerente o "incidente" 
  
@@ -81,7 +81,7 @@ sudo shutdown -h 1 "Fim do horário letivo, desligando em 1 minuto."
  # Agradecimentos:
  
 Agradecemos a Diretora da MEDF, Alcivane Maria Batista De Góes Castro, pela confiança.
-Ao gerente do laboratorio, João Paulo, pela paciência e ajuda.
+Ao gerente do laboratório, João Paulo, pela paciência e ajuda.
  <div align="center"><img src="img/final.png" alt="" style="width:80; height:85px;"/></div>
  15/06/2018 - Escola Maria Edilce Dias Fernandes - Ibicuitinga - CE
  
