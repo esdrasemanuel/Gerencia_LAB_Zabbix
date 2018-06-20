@@ -15,8 +15,8 @@ Fazer o Gerênciamento de um laboratório de informatica usando a ferramente de 
 #### Topologia:
 13 computadores funcionando
 
-<div align="center"><img src="img/topologia.png" alt="" style="width:80; height:85px;"/></div>
-<div align="center"><img src="img/gerencia06.png" alt="" style="width:80; height:85px;"/></div>
+<div align="center"><img src="img/Topologia.png" alt="" style="width:80; height:85px;"/></div>
+<div align="center"><img src="img/IMG_20180615_142759.jpg" alt="" style="width:80; height:85px;"/></div>
 
 #### Sistema:
 Ubuntu 16:04 
