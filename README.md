@@ -30,7 +30,8 @@ Fizemos um script para a instalação automatizada do agent zabbix em todos os h
 o script pinga em todos os ips de um determinada rede que é colocada com parametro no momento da execução, em seguida os hosts que foram pigados seram tentado o acesso via ssh para ser executados os comando de instalaçao e configuração. <br>
 Modo de executar:
 ```
-./install_agents.sh 20.20.1. usuario senha
+./install_agents.sh subrede. usuario senha
+./install_agents.sh 20.20.1. aluno aluno
 ```
 
 ## Configuração do ambiente
