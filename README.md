@@ -8,7 +8,7 @@ Antonio Matheus Cavalcante da Silva <br>
 Esdras Emanuel Mariano Moreira
 
 ## Objetivo
-Fazer o Gerênciamento de um laboratório de informatica usando a ferramente de monitoramento ZABBIX. Esse trabalho monitorou 13 hosts do laboratorio escolar de informatica da escola Maria Edilce Dias Fernandes, realizamos um script de desligamento automatico das maquinas no fim do horario letivo, e assim facilitando o trabalho do gerente e poupando recursos.
+Fazer o Gerênciamento de um laboratório de informatica usando a ferramente de monitoramento ZABBIX. Esse trabalho monitorou 13 hosts do Laboratorio Escolar de Informatica da Escola Maria Edilce Dias Fernandes, na cidade de ibibutinga-ce. Foi implementado um script de desligamento automático das máquinas no fim do horario letivo para facilitar o trabalho do gerente e poupar recursos.
 
 ## Cenário
 
