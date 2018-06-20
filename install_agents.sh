@@ -15,5 +15,5 @@ for IP in `seq 0 1 255 `; do
 done
 
 #OBS
-#nos comando executados dentro do ssh deve-se colocar a senha de root para determinados comando. 
-# basta substituir por ex: [ echo 'aluno'  | sudo .... ] , onde 'aluno' é a senha a ser jogada no sudo 
+#Nos comando executados dentro do ssh deve-se colocar a senha de root para determinados comando. 
+#Basta substituir por ex: [ echo 'aluno'  | sudo .... ] , onde 'aluno' é a senha a ser jogada no sudo 
