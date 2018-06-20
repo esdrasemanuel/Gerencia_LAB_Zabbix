@@ -10,15 +10,16 @@ Esdras Emanuel Mariano Moreira
 ## Objetivo
 Fazer o Gerênciamento de um laboratório de informatica usando a ferramente de monitoramento ZABBIX. Esse trabalho monitorou 13 hosts do laboratorio escolar de informatica da escola Maria Edilce Dias Fernandes, realizamos um script de desligamento automatico das maquinas no fim do horario letivo, e assim facilitando o trabalho do gerente e poupando recursos.
 
-## Cenario Encontrado 
+## Cenário
 
-Topologia:
+#### Topologia:
 13 computadores funcionando
 
-Configuração dos hots:
+#### Sistema:
 Ubuntu 16:04 
 
-Funcionamento: 07 às 11 e de 13 as 17
+#### Funcionamento do laboratorio: 
+07 às 11 e de 13 as 17
 
 ## Ferramenta
 ```
@@ -26,7 +27,7 @@ ZABBIX - Versão 3.2.11
 ```
 
 ## Instalação dos Agents
-Fizemos um script para a instalação automatizada do agent zabbix em todos os hosts do laboratório. usamos conexão via ssh para entrar em cada maquina e executar os comando e adicionar as configurações no arquivo zabbiz_agentd.conf.
+Fizemos um script para a instalação automatizada do agent zabbix em todos os hosts do laboratório. Usamos conexão via ssh para entrar em cada maquina e executar os comando e adicionar as configurações no arquivo zabbiz_agentd.conf.
 o script pinga em todos os ips de um determinada rede que é colocada com parametro no momento da execução, em seguida os hosts que foram pigados seram tentado o acesso via ssh para ser executados os comando de instalaçao e configuração. <br>
 Modo de executar:
 ```
