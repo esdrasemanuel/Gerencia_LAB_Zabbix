@@ -7,8 +7,8 @@
 Antonio Matheus Cavalcante da Silva <br>
 Esdras Emanuel Mariano Moreira
 
-## Objetivo
-Fazer o Gerenciamento de um laboratório de informática utilizando a ferramenta de monitorização ZABBIX. Este trabalho, monitorizou 13 hosts do laboratório escolar de informática da Escola Maria Edilce Dias Fernandes, foi desenvolvido um script de desligamento automático das máquinas no fim do horário letivo, facilitando assim, o trabalho do gerente e também poupando recursos.
+## Introdução
+Este trabalho, monitorizou 13 hosts do laboratório escolar de informática da Escola Maria Edilce Dias Fernandes, utilizando a ferramenta de monitorização ZABBIX. Foi desenvolvido um script de desligamento automático das máquinas no fim do horário letivo, facilitando assim, o trabalho do gerente e também poupando recursos.
 
 ## Cenário
 
