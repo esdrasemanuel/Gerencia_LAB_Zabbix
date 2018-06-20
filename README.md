@@ -8,21 +8,21 @@ Antonio Matheus Cavalcante da Silva <br>
 Esdras Emanuel Mariano Moreira
 
 ## Objetivo
-Fazer o Gerênciamento de um laboratório de informatica usando a ferramente de monitoramento ZABBIX. Esse trabalho monitorou 13 hosts do Laboratorio Escolar de Informatica da Escola Maria Edilce Dias Fernandes, na cidade de ibibutinga-ce. Foi implementado um script de desligamento automático das máquinas no fim do horario letivo para facilitar o trabalho do gerente e poupar recursos.
+Fazer o Gerênciamento de um laboratório de informática utilizando a ferramenta de monitoramento ZABBIX. Este trabalho, monitorou 13 hosts do laboratorio escolar de informática da escola Maria Edilce Dias Fernandes, realizamos um script de desligamento automático das máquinas no fim do horário letivo, assim facilitando o trabalho do gerente e poupando recursos.
 
 ## Cenário
 
 #### Topologia:
 13 computadores funcionando
 
-<div align="center"><img src="img/Topologia.png" alt="" style="width:80; height:85px;"/></div>
-<div align="center"><img src="img/IMG_20180615_142344.jpg" alt="" style="width:80; height:85px;"/></div>
+<div align="center"><img src="img/topologia.png" alt="" style="width:80; height:85px;"/></div>
+<div align="center"><img src="img/gerencia06.png" alt="" style="width:80; height:85px;"/></div>
 
 #### Sistema:
-Ubuntu 16:04 
+Ubuntu 16.04 
 
 #### Funcionamento do laboratorio: 
-07 às 11 e de 13 as 17
+07h às 11h e de 13h as 17h
 
 ## Ferramenta
 ```
@@ -31,12 +31,12 @@ ZABBIX - Versão 3.2.11
 ## Servidor
 
 
-## Instalação dos Agents
-**pre-requisitos**
+## Instalação dos Agentes
+**pré-requisitos**
 - sshpass
 
-Fizemos um script para a instalação automatizada do agent zabbix em todos os hosts do laboratório. Usamos conexão via ssh para entrar em cada maquina e executar os comando e adicionar as configurações no arquivo zabbiz_agentd.conf.
-o script pinga em todos os ips de um determinada rede que é colocada com parametro no momento da execução, em seguida os hosts que foram pigados seram tentado o acesso via ssh para ser executados os comando de instalaçao e configuração. <br>
+Foi feito um script para a instalação automatizada do agent zabbix em todos os hosts do laboratório. Usamos conexão via ssh para entrar em cada máquina, executar os comando e adicionar as configurações no arquivo zabbiz_agentd.conf.
+O script pinga em todos os ips de um determinada rede que é colocada como parâmetro no momento da execução, em seguida os hosts que foram pigados seram tentado o acesso via ssh para ser executados os comando de instalaçao e configuração. <br>
 **Modo de executar:**
 ```
 ./install_agents.sh subrede. usuario senha
@@ -45,7 +45,7 @@ o script pinga em todos os ips de um determinada rede que é colocada com parame
 
 ## Configuração do ambiente no Zabbix
 
-Criamos um grupo chamado LEI (Laborario Escolar de Informatica) para adicionar os host no mesmo.
+Foi criado um grupo chamado LEI (Laborario Escolar de Informatica) para adicionar os host no mesmo.
 <div align="center"><img src="img/gerencia06.png" alt="" style="width:80; height:85px;"/></div>
 
 Em cada host, adicionamos o template ( Template OS Linux )
