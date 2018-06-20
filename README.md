@@ -75,6 +75,15 @@ sudo shutdown -h 1 "Fim do horário letivo, desligando em 1 minuto."
  
  No momento do disparo da trigger aparecerá na tela do gerente o "incidente" 
  
+ 
+ # Agradecimentos:
+ 
+Agradecemos a Diretora da MEDF, Alcivane Maria Batista De Góes Castro, pela confiança.
+Ao gerente do laboratorio, João Paulo, pela paciencia e ajudar.
  <div align="center"><img src="img/final.png" alt="" style="width:80; height:85px;"/></div>
+ 15/06/2018 - Escola Maria Edilce Dias Fernandes - Ibicuitinga - CE
+ 
+ # Obrigado
+ 
 
  
