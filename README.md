@@ -36,7 +36,7 @@ Modo de executar:
 
 ## Configuração do ambiente
 
-<div align="center"><img src="img/geencia03.png" alt="" style="width:80; height:85px;"/></div>
+<div align="center"><img src="img/gerencia08.png" alt="" style="width:80; height:85px;"/></div>
 
 ## trigger
 ```
