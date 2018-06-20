@@ -4,7 +4,7 @@ subrede=$1
 user=$2
 senha=$3
 
-if [ -z $subrede ]; then
+if [ -z $subrede ] || [ -z $user ] || [ -z $senha ]; then
 echo "Modo de executar: [ ./script subrede. usuario senha ]  ---- ~$ ./install_agents.sh 192.168.1. aluno aluno"
 exit 0
 fi
