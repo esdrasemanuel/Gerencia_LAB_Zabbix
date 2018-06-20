@@ -40,10 +40,18 @@ Modo de executar:
 <div align="center"><img src="img/gerencia08.png" alt="" style="width:80; height:85px;"/></div>
 
 ## trigger
+
+<div align="center"><img src="img/gerencia09.png" alt="" style="width:80; height:85px;"/></div>
+
 ```
 {Template OS Linux:agent.ping.time()}>110000 and {Template OS Linux:agent.ping.time()}<130000 or {Template OS Linux:agent.ping.time()}>170000 and {Template OS Linux:agent.ping.time()}<180000
 ```
 ## Acão
+
+<div align="center"><img src="img/gerencia04.png" alt="" style="width:80; height:85px;"/></div>
+<div align="center"><img src="img/gerencia05.png" alt="" style="width:80; height:85px;"/></div>
+
+
 ```
 sudo shutdown -h 1 "Fim do horario letivo, desligando em 1 minuto."
 ```
